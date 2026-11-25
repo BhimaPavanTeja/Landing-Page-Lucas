@@ -192,16 +192,16 @@ h1, h2, h3, p { margin-top: 0; }
 .text-link--dark:hover { color: #34377f; }
 .blog-divider { margin: 40px 0 0; border: 0; border-top: 1px solid #cfcfcd; }
 .blog-beta-note { margin-top: 24px;  color: #fefefe; background-color: #282a38; width: fit-content; padding: 10px 12px; padding-top: 18px; border-radius: 4px; font-size: 12px; cursor:not-allowed; }
-.blog-section { padding-block: 84px 94px; border-top: 1px solid var(--line); background: #f0f0ed; background-image: url("/pexelsryank.jpg"); background-size: cover; background-position: center; }
+.blog-section { padding-block: 84px 94px; border-top: 1px solid var(--line); background: #f0f0ed; background-image: url("/citybg.png"); background-size: cover; background-position: center; }
 .blog-page-section { min-height: calc(100vh - 168px); padding-block: 70px 94px; }
 .blog-heading { display: grid; grid-template-columns: 1fr 1fr; column-gap: 48px; align-items: end; margin-bottom: 34px; }
-.blog-heading .section-kicker { grid-column: 1 / -1; margin-bottom: 17px; }
-.blog-heading h2 { margin: 0; font: 700 clamp(36px, 4vw, 50px)/1.12 var(--display); letter-spacing: -.06em; }
+.blog-heading .section-kicker { color: #5ef775; grid-column: 1 / -1; margin-bottom: 17px; }
+.blog-heading h2 { color: #eeedf0; margin: 0; font: 700 clamp(36px, 4vw, 50px)/1.12 var(--display); letter-spacing: -.06em; }
 .blog-heading h2 > span { color: #3c51ed; }
 .blog-heading > p { max-width: 460px; margin: 0 0 3px; color: #777882; font-size: 12px; line-height: 1.9; }
 .blog-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
-.blog-card { min-height: 141px; padding: 16px 17px; border: 1px solid #e1e1dc; border-radius: 4px; background: rgba(255,255,255,.62); transition: transform .2s, border-color .2s, box-shadow .2s; cursor: default; }
-.blog-card:hover { transform: translateY(-3px); border-color: #c9cdf5; box-shadow: 0 9px 22px rgba(48, 51, 79, .06); }
+.blog-card { min-height: 141px; padding: 16px 17px; border: 1px solid #e1e1dc; border-radius: 4px; background: rgba(255, 255, 255, 0.886); transition: transform .2s, border-color .2s, box-shadow .2s; cursor: default; }
+.blog-card:hover { transform: translateY(-3px); border-color: #1061ee; box-shadow: 0 20px 22px rgba(48, 51, 79, .06); }
 .blog-card__number { color: #010b54; font: 9px var(--mono); letter-spacing: .08em; }
 .blog-card h3 { margin: 18px 0 6px; font: 700 13px/1.4 var(--display); letter-spacing: -.02em; }
 .blog-card p { margin: 0; color: #010b54; font-size: 10px; line-height: 1.7; }
