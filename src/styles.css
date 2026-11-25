@@ -192,7 +192,7 @@ h1, h2, h3, p { margin-top: 0; }
 .text-link--dark:hover { color: #34377f; }
 .blog-divider { margin: 40px 0 0; border: 0; border-top: 1px solid #cfcfcd; }
 .blog-beta-note { margin-top: 24px;  color: #fefefe; background-color: #282a38; width: fit-content; padding: 10px 12px; padding-top: 18px; border-radius: 4px; font-size: 12px; cursor:not-allowed; }
-.blog-section { padding-block: 84px 94px; border-top: 1px solid var(--line); background: #f0f0ed; background-image: url("/lucasbg.png"); background-size: cover; background-position: center; }
+.blog-section { padding-block: 84px 94px; border-top: 1px solid var(--line); background: #f0f0ed; background-image: url("/pexelsryank.jpg"); background-size: cover; background-position: center; }
 .blog-page-section { min-height: calc(100vh - 168px); padding-block: 70px 94px; }
 .blog-heading { display: grid; grid-template-columns: 1fr 1fr; column-gap: 48px; align-items: end; margin-bottom: 34px; }
 .blog-heading .section-kicker { grid-column: 1 / -1; margin-bottom: 17px; }
